@@ -1,0 +1,23 @@
+{
+  "name": "feedme-spec-test",
+  "version": "0.0.1",
+  "description": "Test feedme-spec schemas.",
+  "scripts": {
+    "test": "node -e \"require('rimraf').sync('feedme-spec');\" && git clone https://github.com/aarong/feedme-spec && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarong/feedme-spec-test.git"
+  },
+  "author": "Aaron G",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aarong/feedme-spec-test/issues"
+  },
+  "homepage": "https://github.com/aarong/feedme-spec-test#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "jest": "^23.6.0",
+    "ajv": "^8.8.2"
+  }
+}
