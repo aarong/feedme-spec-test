@@ -1,6 +1,6 @@
 const Ajv = require("ajv");
 
-const schemaFolder = "../feedme-spec/schemas";
+const schemaFolder = "./feedme-spec/schemas";
 const ajv = new Ajv({
   loadSchema: loadSchema,
   allErrors: true // Don't report only the first error
